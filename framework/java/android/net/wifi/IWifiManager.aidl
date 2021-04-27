@@ -376,6 +376,7 @@ interface IWifiManager
 
     List<WifiAvailableChannel> getUsableChannels(int band, int mode, int filter);
 
+<<<<<<< HEAD
     boolean isWifiPasspointEnabled();
 
     void setWifiPasspointEnabled(boolean enabled);
